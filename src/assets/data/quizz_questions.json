@@ -1,0 +1,101 @@
+{
+  "title":"Qual seria sua casa em Hogwarts?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Amanhecer ou Anoitecer?",
+      "options":[
+        {"id": 1, "name":"Amanhecer", "alias":"A"},
+        {"id": 2, "name":"Anoitecer", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Cara ou Coroa?",
+      "options":[
+        {"id": 1, "name":"Cara", "alias":"C"},
+        {"id": 2, "name":"Coroa", "alias":"D"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Rio ou Floresta?",
+      "options":[
+        {"id": 1, "name":"Rio", "alias":"C"},
+        {"id": 2, "name":"Floresta", "alias":"D"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Preto ou Branco?",
+      "options":[
+        {"id": 1, "name":"Preto", "alias":"B"},
+        {"id": 2, "name":"Branco", "alias":"A"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual som de instrumento mais agrada o seu ouvido?",
+      "options":[
+        {"id": 1, "name":"Harpa", "alias":"C"},
+        {"id": 2, "name":"Violino", "alias":"B"},
+        {"id": 3, "name":"Piano", "alias":"A"},
+        {"id": 4, "name":"Flauta", "alias": "D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Lua ou estrelas?",
+      "options":[
+        {"id": 1, "name":"Lua", "alias":"B"},
+        {"id": 2, "name":"Estrela", "alias":"C"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Se você fosse para Hogwarts, qual animal de estimação escolheria para levar com você?",
+      "options":[
+        {"id": 1, "name":"Gato", "alias":"C"},
+        {"id": 2, "name":"Coruja", "alias":"A"},
+        {"id": 3, "name":"Sapo", "alias":"B"},
+        {"id": 4, "name":"Rato", "alias":"D"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Se você pudesse escolher, iria inventar uma poção que lhe garantisse:",
+      "options":[
+        {"id": 1, "name":"Amor", "alias":"D"},
+        {"id": 2, "name":"Glória", "alias":"A"},
+        {"id": 3, "name":"Poder", "alias":"B"},
+        {"id": 4, "name":"Sabedoria", "alias":"C"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Se você pudesse escolher, iria inventar uma poção que lhe garantisse:",
+      "options":[
+        {"id": 1, "name":"O líquido espumoso, espumoso e prateado, que cintila como se contivesse diamantes moídos.", "alias":"B"},
+        {"id": 2, "name":"O misterioso líquido negro, que brilha como tinta, e exala vapores que fazem você ter estranhas visões.", "alias":"D"},
+        {"id": 3, "name":"A bebida macia, espessa e ricamente roxa, que exala um cheiro delicioso de chocolate e ameixas.", "alias":"A"},
+        {"id": 4, "name":"O líquido dourado, tão brilhante, que fere os olhos e que faz as manchas solares dançarem por toda a sala.", "alias":"C"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "O que você prefere ser?",
+      "options":[
+        {"id": 1, "name":"Abençoado", "alias":"C"},
+        {"id": 2, "name":"Confiável", "alias":"A"},
+        {"id": 3, "name":"Invejado", "alias":"B"},
+        {"id": 4, "name":"Gostado", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Grifinória",
+    "B": "Sonserina",
+    "C": "Corvinal",
+    "D": "Lufa-Lufa"
+  }
+}
