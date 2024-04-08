@@ -38,6 +38,18 @@ export class QuizzComponent implements OnInit {
     this.nextStep();
   }
 
+  async backStep(){
+    this.answers.pop();
+    this.questionIndex--;
+    if(this.questionIndex<this.questionMaxIndex){
+      this.questionSelected = this.questions[this.questionIndex];
+    }else{
+      const finalAnswer = await this.checkResult(this.answers);
+      this.finished = true;
+      this.answerSelected = quizz.results[finalAnswer as keyof typeof quizz.results];
+    }
+  }
+  
   async nextStep(){
     this.questionIndex++;
     if(this.questionIndex<this.questionMaxIndex){

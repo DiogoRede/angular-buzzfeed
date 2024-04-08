@@ -78,3 +78,25 @@
 .results_quizz h1{
     text-align: center;
 }
+
+.btn-quizz{
+    display: inline-block;
+    background-color: #187dab;
+    border-radius: 1rem;
+    width: 20%;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.btn-quizz:hover{
+    background-color: #43b0e2;
+}
+
+.back_quizz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

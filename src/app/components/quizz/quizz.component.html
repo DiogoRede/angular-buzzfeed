@@ -16,6 +16,14 @@
                 >{{option.name}}</button>
     </div>
 
+    <div *ngIf="questionIndex>0 && !finished" class="back_quizz">
+        <button class="btn-quizz" 
+                (click)="backStep()"
+        >
+            Voltar
+        </button>
+    </div>
+
     <div *ngIf="finished" class="results_quizz">
         <h1>O resultado é: </h1>
         <h1>{{answerSelected}}</h1>
